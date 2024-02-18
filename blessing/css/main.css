@@ -1,0 +1,394 @@
+body{
+    margin: 0;
+    padding-top: 140px; /* Adjust the value to match the height of your header */
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    z-index: 9999; /* Ensure a higher z-index value than the content below */
+}
+.hd h2{
+    text-align: right;
+    height: 15px;
+    margin-right: 20px;
+    color: brown;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+h2 img{
+        position: absolute;
+        margin-top: -45px; 
+        height: 90px;              
+        left: 08px;       
+}
+span{
+    color: yellow;
+}
+/* styling home, about, ....*/
+nav{
+    background-color: blue;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 24px;
+    height: 50px;
+    align-items: center;   
+}
+/* styling a elements*/
+nav a{
+text-decoration: none;
+color: black;
+padding: 10px;
+background-color: white;
+border-radius: 7px;
+transform: 0.5s ease-in-out;
+}
+nav a:hover{
+    color: tomato;
+}
+/* styling bckground images @ home pg.*/
+div.background img{
+    width: 100%;
+}
+/* styling content @ home pg.*/
+div.content{
+    font-family: 'Times New Roman';     
+    position: absolute;
+    left: 50px;
+    top: 130px;
+    padding: 10px;     
+    color: black;
+    text-align: center;    
+    text-shadow: -2px 0px 0px rgb(248, 7, 7);
+    text-transform: uppercase;   
+}
+div.content:hover{
+    color: rgb(168, 167, 247);
+}
+.content span{
+    color: rgb(22, 5, 255);
+}
+/*Job title/what we do*/
+p.content{
+    position: absolute;
+    width: 100%;    
+    left: 0px;
+    top: 650px;     
+    background-color: white;
+    text-align: center;
+    padding-bottom: 90px;
+    padding-top: 55px;
+    }
+   
+    /*Home pg: down welcome*/
+    h3{
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        top: 540px;
+        text-align: center;
+        background-color: black;
+        padding-bottom: 36px;
+        padding-top: 36px;        
+        width: 100%;
+        text-transform: uppercase;
+        color: white;
+        text-shadow: -1px 0px 0px darkgreen;     
+    }
+    .sach{
+        width: 330px;
+        margin-left: 1010px;        
+    }
+    .srch{
+        width: 200px;
+        height: 30px;
+        font-family: 'Times New Roman';
+        border: 1px solid rgb(255, 118, 5);
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        background: transparent;
+        margin-top: 7px;
+        border-right: none;
+        font-size: 16px; 
+        margin-left: -6px;        
+    }
+    /*search button*/
+    .btnn{
+        width: 100px;
+        height: 32px;
+        background: rgb(255, 118, 5);
+        border: 2px solid rgb(255, 118, 5);
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        color:#000;       
+        font-size: 16px;           
+    }    
+    .btnn:hover{
+        color: black;
+        background: white;
+    }
+    ::placeholder{
+        color: white;
+
+    }
+    /*login session*/
+    .form{
+        width: 250px;
+        height: 440px;
+        background: linear-gradient(to top, rgba(70, 62, 62, 0.8)50%, rgba(70, 62, 62, 0.8)50%);
+        position: absolute;
+        top: 115px;
+        left: 1000px;
+        border-radius: 15px;
+        padding: 25px;
+        transform: 0.5s ease-in-out;
+        padding-top: 30px; /* Adjust the value to match the height of your header */
+    }
+    .form:hover{
+        color: white;
+        background-color: white;
+    }
+    .form h2{
+        background-color: white;
+        width: 170px;
+        height: 30px;
+        color: brown;
+        text-align: center;
+        margin-left: 30px;
+        border-radius: 5px;
+        transform: 0.5s ease-in-out;
+        font-size: 25px;
+    }
+    .form h2:hover{
+        color: white;
+        background-color: blue;
+    }
+    .form input{
+        width: 240px;
+        height: 40px;
+        background: transparent;
+        border-bottom: 1px solid rgb(255, 118, 5);
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        color: white;
+        font-family: sans-serif;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 20px;
+    }
+    .btnn{
+        background-color: white;
+        border: none;
+        color: white;
+        width: 90px;
+        height: 30px;
+        font-family: 'Times New Roman';
+        font-size: 21px;
+        margin-left: 80px;
+        margin-top: 10px;
+        border-radius: 5px;        
+    }
+    .btnn:hover{
+        color: white;
+        background-color: rgb(255, 118, 5);
+    }
+    p.log{
+        color: white;
+        text-shadow: 3px 0px 0px rgb(160, 44, 44);
+        margin-left: 30px;
+        font-family: 'Times New Roman';
+        font-size: 18px;
+    }
+    p.log a{
+        color: rgb(136, 255, 0);
+        text-shadow: none;
+        font-family: 'Times New Roman';
+        font-size: 20px;
+        margin-left: 35px;
+        text-decoration: none;
+    }
+    .liw{
+        text-align: center;
+        color: white;
+    }
+    .icon img{
+        width: 30px;
+        height: 25px;
+        padding-left: 14px;        
+    }
+    .card{
+        margin-top: 50px;
+        margin-left: 30px;
+        width: 350px;
+        margin-bottom: 10px;
+    }
+    .card-img-top{
+        width: 80px;       
+    }
+
+    /* Footer styles */
+footer {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    background-color: rgb(20, 20, 20);
+    padding: 0px 0;
+    color: white;
+  }
+
+  .footer-social ul {
+    list-style: none;
+    margin: 0px;
+    padding-left: 160px;
+    padding-top: 20px;    
+  }
+  
+  .footer-social li {
+    display: inline;
+    margin-right: 150px;
+    padding: 20px 0;
+  }
+  
+  .footer-social a {
+    color: green;
+    text-decoration: none;
+    font-size: 18px;
+    
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 100px;
+    background-color: black;
+    height: 20px;
+  }
+  .cont{
+   margin-left: 1050px;
+   margin-top: 30px;
+   margin-bottom: -60px;
+   color: yellow;
+   font-family: 'Courier New', Courier, monospace;
+  }
+  .cont b{
+    font-size: 16px;
+   }
+  .msn{
+    margin-left: 650px;
+    margin-top: 0px;
+    margin-bottom: -60px;
+    color: yellow;
+   }
+   .msn b{
+    font-size: 16px;
+   }
+  .val{
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: -60px;
+    color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+   }
+   .val b{
+    font-size: 16px;
+   }
+   .pix{
+   margin-left: 60px;
+   margin-top: -180px;
+     }
+
+     .cpix{
+        margin-left: 493px;
+        margin-top: -365px;
+     }
+
+        .spix{
+            margin-left: 60px;
+            padding: 10px;
+        }
+     
+       .cform{
+        font-size: 21px;
+        text-align: center;
+        padding-top: 15px;
+       }
+    .fav_language{
+       margin-left: 150px;
+    }
+    .fav_service{
+        margin-top: -125px;
+        margin-left: 1010px;
+    }
+        #ScrollTop span{
+            background: var(---frs-sprite) no-repeat;
+            background-position: -15px -84px;           
+            display: inline-flex;
+            width: 25px;
+            height: 30px;
+            position: relative;
+            animation-name: down;
+            animation-duration: 1s;
+            animation-timing-function: linear;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            animation-play-state: running;
+            top: 13px;
+            left: 4px;
+        }
+        #ScrollTopBtn.scroll-top{
+            display: block;                  
+        }
+        #ScrollTopBtn {
+            display: none;
+            position: fixed;
+            bottom: 0px;
+            right: 30px;            
+            z-index: 1;
+            font-size: 18px;
+            border: 1px;
+            outline: none;
+            background: #009b27;
+            cursor: pointer;
+            padding: 0;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            border: 4px solid #e8e6ef;
+            box-shadow: 0 0 4px 0 rgb(1, 1, 22);
+        }
+        a {
+            color: rgb(201, 0, 0);            
+            text-decoration: none;
+            cursor: pointer;
+        }
+        /*Abouut Us*/
+        #abbls{
+            font-size: 21px;
+            text-align: left;
+            padding-top: 15px;
+            margin: 15px;
+           }
+
+           #msn{
+            font-size: 18px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            padding-top: 143px;
+                                               }
+                    span{
+                        font-size: 25px;
+                        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                    }
+
+            #con{
+                padding-top: 15px;  
+                margin: 15px;                
+            }
+
+            .oadd{
+                    margin-left: 950px;
+                    margin-top: -400px;
+                    color: rgb(156, 67, 4);                    
+            }
